@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+
+
+<!--    put the log_tile in the middle of the screen -->
+
+
+    <ImageView
+        android:id="@+id/water_tile"
+        android:layout_width="472dp"
+        android:layout_height="239dp"
+        android:layout_gravity="top"
+        android:scaleType="fitXY"
+        android:src="@drawable/water_tile"
+        android:translationY="140dp" />
+
+    <ImageView
+        android:id="@+id/log_tile"
+        android:layout_width="103dp"
+        android:layout_height="23dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/log_tile"
+        android:translationX="-140dp"
+        android:translationY="-100dp" />
+
+    <ImageView
+        android:id="@+id/log_tile2"
+        android:layout_width="103dp"
+        android:layout_height="23dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/log_tile"
+        android:translationX="-140dp"
+        android:translationY="-150dp" />
+
+    <ImageView
+        android:id="@+id/goal_tile"
+        android:layout_width="469dp"
+        android:layout_height="143dp"
+        android:layout_gravity="top"
+        android:scaleType="fitXY"
+        android:src="@drawable/goal_tile" />
+
+    <ImageView
+        android:id="@+id/road_tile"
+        android:layout_width="506dp"
+        android:layout_height="411dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:scaleType="fitXY"
+        android:src="@drawable/road_tile" />
+
+    <ImageView
+        android:id="@+id/vehicle1"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:scaleType="fitXY"
+        android:src="@drawable/vehicle1"
+        android:translationX="-180dp"
+        android:translationY="-170dp" />
+
+    <ImageView
+        android:id="@+id/vehicle2"
+        android:layout_width="171dp"
+        android:layout_height="114dp"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="180"
+        android:scaleType="fitXY"
+        android:src="@drawable/vehicle2"
+        android:translationX="0dp"
+        android:translationY="500dp" />
+
+    <ImageView
+        android:id="@+id/vehicle3"
+        android:layout_width="117dp"
+        android:layout_height="59dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:scaleType="fitXY"
+        android:src="@drawable/vehicle3"
+        android:translationX="-150dp"
+        android:translationY="-240dp" />
+
+    <ImageView
+        android:id="@+id/safe_tile"
+        android:layout_width="470dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/safe_tile"
+        android:translationY="-30dp" />
+
+    <ImageView
+        android:id="@+id/starting_tile"
+        android:layout_width="470dp"
+        android:layout_height="66dp"
+        android:layout_gravity="bottom"
+        android:scaleType="fitXY"
+        android:src="@drawable/starting_tile" />
+
+    <ImageView
+        android:id="@+id/sprite"
+        android:layout_width="57dp"
+        android:layout_height="54dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:translationY="0dp" />
+
+    <!--        add log_tile.png-->
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="216dp"
+        android:layout_height="79dp"
+        android:layout_gravity="top|start"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/game_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:" />
+
+        <TextView
+            android:id="@+id/difficulty_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Difficulty:" />
+
+        <TextView
+            android:id="@+id/lives_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lives" />
+
+        <TextView
+            android:id="@+id/points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+
+
+
+
+<!-- end file here-->
+    </LinearLayout>
+
+</FrameLayout>
