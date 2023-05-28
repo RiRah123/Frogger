@@ -5,6 +5,10 @@
 
 ## 🐸	Project Summary
 
+<p align="center">
+  <img src="./frogger.gif" width="1000" height="450">
+</p>
+
 Welcome to our thrilling Cross the Road game! In this action-packed adventure, you'll take control of a courageous character with a daring mission: to cross treacherous rivers and bustling roads, all while avoiding perilous obstacles.
 
 The game is divided into two challenging environments: the roads and the rivers. The roads consist of multiple lanes, each filled with vehicles of different colors, speeds, and lengths, all moving relentlessly in their designated directions. Your quick reflexes and impeccable timing will be put to the test as you navigate through this chaotic maze of traffic. Can you make it to the other side unscathed?
@@ -35,7 +39,7 @@ Using the terminal:
    ```
 3. Open the index.html in a supported web browser
    ```
-   $ 
+   $ adb shell am start -n "com.example.s2/com.example.s2.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
    ```
 
 
