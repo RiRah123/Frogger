@@ -6,7 +6,7 @@
 ## 🐸	Project Summary
 
 <p align="center">
-  <img src="./frogger.gif" width="300" height="650">
+  <img src="./frogger.gif" width="300" height="550">
 </p>
 
 Welcome to our thrilling Cross the Road game! In this action-packed adventure, you'll take control of a courageous character with a daring mission: to cross treacherous rivers and bustling roads, all while avoiding perilous obstacles.
