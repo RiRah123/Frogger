@@ -37,7 +37,7 @@ Using the terminal:
    ```
    $ cd Frogger
    ```
-3. Open the index.html in a supported web browser
+3. Run the Android Studio app with the following command
    ```
    $ adb shell am start -n "com.example.s2/com.example.s2.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
    ```
