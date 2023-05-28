@@ -21,6 +21,22 @@ Prepare yourself for a thrilling journey as you dodge traffic, hop onto logs, an
 
 Are you ready to take on the challenge? Get your reflexes ready, gather your courage, and embark on a daring adventure in our Frogger game!
 
+## Sprints
+### Sprint 1
+During this sprint, we performed object-oriented analysis (OOA) and created a Domain model and Use Case Diagram. In terms of implementation, we developed three screens: a welcome screen, a player configuration screen, and an initial game screen. We focused on Java (not Kotlin) and ensured that our application's functionality aligned with the requirements. We eagerly awaited the upcoming demo to showcase our progress.
+
+### Sprint 2
+This sprint encompassed further object-oriented analysis (OOA), where we crafted user stories and System Sequence Diagrams (SSDs). For implementation, we constructed a game screen featuring road, river, and goal tiles, allowing the character sprite to freely move around. We built upon the foundation laid in Sprint 1, emphasizing the importance of analysis when developing complex systems.
+
+### Sprint 3
+Design-wise, we created a Detailed Class Diagram (DCD) and a Sequence Diagram (SD). In terms of implementation, we introduced three types of vehicles, each with distinct behaviors such as sizes and speeds. Additionally, we implemented a score system to track the player's progress. This sprint expanded upon the previous ones, refining the obstacles on road tiles and enhancing the scoring system.
+
+### Sprint 4
+Design deliverables included a write-up on SOLID/GRASP principles. In terms of implementation, we developed scenarios for losing lives and implemented the game over screen. Building upon the work of earlier sprints, we focused on water tiles (river), vehicle collisions, and proper tracking of remaining lives. Emphasizing SOLID and GRASP principles helped us grasp the benefits of following these patterns.
+
+### Sprint 5
+The final sprint involved writing a code smells analysis. We implemented scenarios for winning the game and introduced the logs for crossing the river. Tracking the score and remaining lives, we ensured that the Game Win Screen displayed them appropriately. Reflecting on code smells, we identified areas where our code could be improved. This sprint emphasized Object-Oriented Analysis and provided an opportunity for team-based code review.
+
 
 
 
