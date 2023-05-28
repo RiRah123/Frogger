@@ -3,7 +3,7 @@
 ![Android_Studio](https://img.shields.io/badge/Android_Studio-3DDC84.svg?style=for-the-badge&logo=androidstudio&logoColor=white)
 ![JUnit_5](https://img.shields.io/badge/JUnit_5-25A162.svg?style=for-the-badge&logo=junit5&logoColor=white)
 
-## What is the Frogger Game?
+## 🐸	Project Summary
 
 Welcome to our thrilling Cross the Road game! In this action-packed adventure, you'll take control of a courageous character with a daring mission: to cross treacherous rivers and bustling roads, all while avoiding perilous obstacles.
 
