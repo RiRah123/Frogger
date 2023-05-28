@@ -21,7 +21,26 @@ Prepare yourself for a thrilling journey as you dodge traffic, hop onto logs, an
 
 Are you ready to take on the challenge? Get your reflexes ready, gather your courage, and embark on a daring adventure in our Frogger game!
 
-## Sprints
+## 🏃‍♂️ Running the App Locally
+
+Using the terminal:
+
+1. Clone the GitHub Project
+   ```
+   $ git clone https://github.com/RiRah123/Frogger.git
+   ```
+2. Navigate to the cloned project
+   ```
+   $ cd Frogger
+   ```
+3. Open the index.html in a supported web browser
+   ```
+   $ 
+   ```
+
+
+
+## 🚶‍♂️ Sprints
 ### Sprint 1
 During this sprint, we performed object-oriented analysis (OOA) and created a Domain model and Use Case Diagram. In terms of implementation, we developed three screens: a welcome screen, a player configuration screen, and an initial game screen. We focused on Java (not Kotlin) and ensured that our application's functionality aligned with the requirements. We eagerly awaited the upcoming demo to showcase our progress.
 
@@ -36,7 +55,3 @@ Design deliverables included a write-up on SOLID/GRASP principles. In terms of i
 
 ### Sprint 5
 The final sprint involved writing a code smells analysis. We implemented scenarios for winning the game and introduced the logs for crossing the river. Tracking the score and remaining lives, we ensured that the Game Win Screen displayed them appropriately. Reflecting on code smells, we identified areas where our code could be improved. This sprint emphasized Object-Oriented Analysis and provided an opportunity for team-based code review.
-
-
-
-
